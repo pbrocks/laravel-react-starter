@@ -8,6 +8,39 @@ Inertia allows you to build modern, single-page React applications using classic
 
 This React starter kit utilizes React, TypeScript, and Tailwind, but **does not include any authentication scaffolding**.
 
+## Structure
+
+```
+Laravel
+	...
+	/resources
+		/js
+			/lib
+				utils.ts
+			/pages
+				welcome.tsx
+			/routes
+				/storage
+					index.ts
+				index.ts
+			/types
+				index.d.ts
+				vite-env.d.ts
+			/wayfinder
+				index.ts
+			app.tsx
+			ssr.tsx
+.env
+artisan
+composer.json
+eslint.config.js
+local.yml
+package.json
+phpunit.xml
+tsconfig.json
+vite.config.ts
+```
+
 ## Official Documentation
 
 Documentation for all Laravel starter kits can be found on the [Laravel website](https://laravel.com/docs/starter-kits).
